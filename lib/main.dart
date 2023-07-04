@@ -23,9 +23,25 @@ class _LoginPageState extends State<LoginPage> {
           )),
       child: Scaffold(
         backgroundColor: Colors.transparent,
+
+
       ),
     );
   }
+}
+
+Widget _page() {
+  return Padding(
+    padding: const EdgeInsets.all(32.0),
+    child: Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+         
+        ],
+      ),
+    ),
+  );
 }
 
  
