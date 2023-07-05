@@ -37,10 +37,19 @@ Widget _page() {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-         
+
         ],
       ),
     ),
+  );
+}
+
+Widget _icon() {
+  return Container(
+    decoration: BoxDecoration(
+        border: Border.all(color: Colors.white, width: 2),
+        shape: BoxShape.circle),
+    child: const Icon(Icons.person, color: Colors.white, size: 120),
   );
 }
 
