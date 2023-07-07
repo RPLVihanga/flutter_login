@@ -53,4 +53,23 @@ Widget _icon() {
   );
 }
 
+Widget _inputField(String hintText, TextEditingController controller,
+    {isPassword = false}) {
+  var border = OutlineInputBorder(
+      borderRadius: BorderRadius.circular(18),
+      borderSide: const BorderSide(color: Colors.white));
+
+  return TextField(
+    style: const TextStyle(color: Colors.white),
+    controller: controller,
+    decoration: InputDecoration(
+      hintText: hintText,
+      hintStyle: const TextStyle(color: Colors.white),
+      enabledBorder: border,
+      focusedBorder: border,
+    ),
+    obscureText: isPassword,
+  );
+}
+
  
