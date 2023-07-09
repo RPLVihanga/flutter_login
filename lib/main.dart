@@ -72,4 +72,27 @@ Widget _inputField(String hintText, TextEditingController controller,
   );
 }
 
+Widget _loginBtn() {
+  return ElevatedButton(
+      onPressed: () {
+    // debugPrint("Username : " + usernameController.text);
+    // debugPrint("Password : " + passwordController.text);
+  },
+    child: const SizedBox(
+        width: double.infinity,
+        child: Text(
+          "Sign in ",
+          textAlign: TextAlign.center,
+          style: TextStyle(fontSize: 20),
+        )),
+    style: ElevatedButton.styleFrom(
+      shape: const StadiumBorder(),
+      primary: Colors.white,
+      onPrimary: Colors.blue,
+      padding: const EdgeInsets.symmetric(vertical: 16),
+    ),
+  );
+}
+
+
  
