@@ -93,6 +93,14 @@ Widget _loginBtn() {
     ),
   );
 }
+Widget _extraText() {
+  return const Text(
+    "Can't access to your account?",
+    textAlign: TextAlign.center,
+    style: TextStyle(fontSize: 16, color: Colors.white),
+  );
+}
+}
 
 
  
