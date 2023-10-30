@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-void main() {
-  runApp(LoginPage());
-}
+
 class LoginPage extends StatefulWidget {
   @override
   State<LoginPage> createState() => _LoginPageState();
