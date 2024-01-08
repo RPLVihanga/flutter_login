@@ -109,6 +109,13 @@ class _LoginPageState extends State<LoginPage> {
       style: TextStyle(fontSize: 16, color: Colors.white),
     );
   }
-}
 
- 
+  Widget _extraText1() {
+    return const Text(
+      "Can't access to your account?",
+      textAlign: TextAlign.center,
+      style: TextStyle(fontSize: 16, color: Colors.white),
+    );
+  }
+
+}
